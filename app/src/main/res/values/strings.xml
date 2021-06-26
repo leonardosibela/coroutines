@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Coroutines Course</string>
+    <string name="first_example">Exemplo básico</string>
 </resources>
