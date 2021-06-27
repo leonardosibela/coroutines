@@ -5,4 +5,5 @@
     <string name="display_text">Display text</string>
     <string name="get_result">Get result</string>
     <string name="network_timeout">Network timeout</string>
+    <string name="coroutines_jobs">Coroutines Jobs</string>
 </resources>

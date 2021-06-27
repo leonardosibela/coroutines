@@ -29,6 +29,8 @@
             android:name=".NetworkTimeoutActivity"
             android:label="@string/network_timeout" />
 
+        <activity android:name=".JobActivity"
+            android:label="@string/coroutines_jobs"/>
     </application>
 
 </manifest>

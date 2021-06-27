@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         firstExampleButton.setOnClickListener(::onFirstExampleClicked)
         secondExampleButton.setOnClickListener(::onSecondExampleClicked)
         thirdExampleButton.setOnClickListener(::onThirdExampleClicked)
+        fourthExampleButton.setOnClickListener(::onFourthExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -34,5 +35,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onThirdExampleClicked(view: View) {
         startActivity(Intent(this, NetworkTimeoutActivity::class.java))
+    }
+
+    private fun onFourthExampleClicked(view: View) {
+        startActivity(Intent(this, JobActivity::class.java))
     }
 }
