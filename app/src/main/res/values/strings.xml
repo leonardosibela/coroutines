@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Coroutines Course</string>
     <string name="first_example">Exemplo básico</string>
+    <string name="second_example">Altering context</string>
+    <string name="display_text">Display text</string>
 </resources>

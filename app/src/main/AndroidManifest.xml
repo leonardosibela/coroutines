@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutinesCourse">
 
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +21,10 @@
         <activity
             android:name=".BasicExampleActivity"
             android:label="@string/first_example" />
+
+        <activity
+            android:name=".AlteringContextActivity"
+            android:label="@string/second_example" />
 
     </application>
 

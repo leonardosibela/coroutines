@@ -20,9 +20,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupListeners() = with(binding) {
         firstExampleButton.setOnClickListener(::onFirstExampleClicked)
+        secondExampleButton.setOnClickListener(::onSecondExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
         startActivity(Intent(this, BasicExampleActivity::class.java))
+    }
+
+    private fun onSecondExampleClicked(view: View) {
+        startActivity(Intent(this, AlteringContextActivity::class.java))
     }
 }
