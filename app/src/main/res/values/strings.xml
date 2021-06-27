@@ -6,4 +6,6 @@
     <string name="get_result">Get result</string>
     <string name="network_timeout">Network timeout</string>
     <string name="coroutines_jobs">Coroutines Jobs</string>
+    <string name="parallel_jobs">Parallel Jobs</string>
+    <string name="click_me">Click me</string>
 </resources>
