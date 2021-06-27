@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupListeners() = with(binding) {
         firstExampleButton.setOnClickListener(::onFirstExampleClicked)
         secondExampleButton.setOnClickListener(::onSecondExampleClicked)
+        thirdExampleButton.setOnClickListener(::onThirdExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -29,5 +30,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onSecondExampleClicked(view: View) {
         startActivity(Intent(this, AlteringContextActivity::class.java))
+    }
+
+    private fun onThirdExampleClicked(view: View) {
+        startActivity(Intent(this, NetworkTimeoutActivity::class.java))
     }
 }

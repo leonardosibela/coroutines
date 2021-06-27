@@ -10,21 +10,31 @@
         android:id="@+id/firstExampleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="212dp"
         android:text="@string/first_example"
+        android:layout_marginTop="32dp"
         app:layout_constraintBottom_toTopOf="@+id/secondExampleButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:layout_marginTop="32dp"
         android:id="@+id/secondExampleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/second_example"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstExampleButton" />
+
+    <Button
+        android:id="@+id/thirdExampleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/network_timeout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondExampleButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

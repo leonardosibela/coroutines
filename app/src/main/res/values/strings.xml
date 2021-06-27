@@ -3,4 +3,6 @@
     <string name="first_example">Exemplo básico</string>
     <string name="second_example">Altering context</string>
     <string name="display_text">Display text</string>
+    <string name="get_result">Get result</string>
+    <string name="network_timeout">Network timeout</string>
 </resources>

@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutinesCourse">
 
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +24,10 @@
         <activity
             android:name=".AlteringContextActivity"
             android:label="@string/second_example" />
+
+        <activity
+            android:name=".NetworkTimeoutActivity"
+            android:label="@string/network_timeout" />
 
     </application>
 
