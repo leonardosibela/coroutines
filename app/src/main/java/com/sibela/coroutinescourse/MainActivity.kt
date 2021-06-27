@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         secondExampleButton.setOnClickListener(::onSecondExampleClicked)
         thirdExampleButton.setOnClickListener(::onThirdExampleClicked)
         fourthExampleButton.setOnClickListener(::onFourthExampleClicked)
+        fifthExampleButton.setOnClickListener(::onFifthExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -39,5 +40,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onFourthExampleClicked(view: View) {
         startActivity(Intent(this, JobActivity::class.java))
+    }
+
+    private fun onFifthExampleClicked(view: View) {
+        startActivity(Intent(this, ParallelJobsActivity::class.java))
     }
 }
