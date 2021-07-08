@@ -41,8 +41,12 @@
             android:name=".AsyncAndAwaitActivity"
             android:label="@string/async_and_await" />
 
-        <activity android:name=".SequentialJobsActivity"
-            android:label="@string/sequential_job_async_await"/>
+        <activity
+            android:name=".SequentialJobsActivity"
+            android:label="@string/sequential_job_async_await" />
+
+        <activity android:name=".RunBlockingActivity"
+            android:label="@string/run_blocking"/>
 
     </application>
 

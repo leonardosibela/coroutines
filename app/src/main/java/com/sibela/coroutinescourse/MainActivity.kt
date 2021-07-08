@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         fifthExampleButton.setOnClickListener(::onFifthExampleClicked)
         sixthExampleButton.setOnClickListener(::onSixthExampleClicked)
         seventhExampleButton.setOnClickListener(::onSeventhExampleClicked)
+        eighthExampleButton.setOnClickListener(::onEighthExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -54,5 +55,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onSeventhExampleClicked(view: View) {
         startActivity(Intent(this, SequentialJobsActivity::class.java))
+    }
+
+    private fun onEighthExampleClicked(view: View) {
+        startActivity(Intent(this, RunBlockingActivity::class.java))
     }
 }
