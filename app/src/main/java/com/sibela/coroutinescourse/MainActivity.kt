@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         thirdExampleButton.setOnClickListener(::onThirdExampleClicked)
         fourthExampleButton.setOnClickListener(::onFourthExampleClicked)
         fifthExampleButton.setOnClickListener(::onFifthExampleClicked)
+        sixthExampleButton.setOnClickListener(::onSixthExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -44,5 +45,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onFifthExampleClicked(view: View) {
         startActivity(Intent(this, ParallelJobsActivity::class.java))
+    }
+
+    private fun onSixthExampleClicked(view: View) {
+        startActivity(Intent(this, AsyncAndAwaitActivity::class.java))
     }
 }

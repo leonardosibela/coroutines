@@ -37,6 +37,8 @@
             android:name=".ParallelJobsActivity"
             android:label="@string/parallel_jobs" />
 
+        <activity android:name=".AsyncAndAwaitActivity"
+            android:label="@string/async_and_await"/>
     </application>
 
 </manifest>

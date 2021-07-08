@@ -8,4 +8,5 @@
     <string name="coroutines_jobs">Coroutines Jobs</string>
     <string name="parallel_jobs">Parallel Jobs</string>
     <string name="click_me">Click me</string>
+    <string name="async_and_await">Async and await</string>
 </resources>
