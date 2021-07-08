@@ -67,4 +67,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fifthExampleButton" />
 
+    <Button
+        android:id="@+id/seventhExampleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/sequential_job_async_await"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sixthExampleButton" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

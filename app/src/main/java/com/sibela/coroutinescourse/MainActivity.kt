@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         fourthExampleButton.setOnClickListener(::onFourthExampleClicked)
         fifthExampleButton.setOnClickListener(::onFifthExampleClicked)
         sixthExampleButton.setOnClickListener(::onSixthExampleClicked)
+        seventhExampleButton.setOnClickListener(::onSeventhExampleClicked)
     }
 
     private fun onFirstExampleClicked(view: View) {
@@ -49,5 +50,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun onSixthExampleClicked(view: View) {
         startActivity(Intent(this, AsyncAndAwaitActivity::class.java))
+    }
+
+    private fun onSeventhExampleClicked(view: View) {
+        startActivity(Intent(this, SequentialJobWithAsyncAndAwaitActivity::class.java))
     }
 }
