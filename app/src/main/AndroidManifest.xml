@@ -41,7 +41,7 @@
             android:name=".AsyncAndAwaitActivity"
             android:label="@string/async_and_await" />
 
-        <activity android:name=".SequentialJobWithAsyncAndAwaitActivity"
+        <activity android:name=".SequentialJobsActivity"
             android:label="@string/sequential_job_async_await"/>
 
     </application>

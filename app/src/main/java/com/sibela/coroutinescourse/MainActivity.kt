@@ -53,6 +53,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onSeventhExampleClicked(view: View) {
-        startActivity(Intent(this, SequentialJobWithAsyncAndAwaitActivity::class.java))
+        startActivity(Intent(this, SequentialJobsActivity::class.java))
     }
 }
