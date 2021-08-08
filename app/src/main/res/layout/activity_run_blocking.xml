@@ -7,8 +7,10 @@
     tools:context=".RunBlockingActivity">
 
     <TextView
+        tools:text="45"
         android:id="@+id/text_input"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
+        android:textSize="32sp"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/click_me_button"
         app:layout_constraintEnd_toEndOf="parent"
